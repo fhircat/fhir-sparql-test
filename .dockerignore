@@ -1,6 +1,0 @@
-fhir-sparql-js/node_modules
-npm-debug.log
-Dockerfile
-.dockerignore
-.github/
-.gitignore
