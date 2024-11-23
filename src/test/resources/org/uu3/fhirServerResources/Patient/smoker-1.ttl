@@ -159,7 +159,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     fhir:use [ fhir:v "home" ]
   ] );
   fhir:gender [ fhir:v "female" ];
-  fhir:birthDate [ fhir:v "1924-11-23" ];
+  fhir:birthDate [ fhir:v "1924-11-23"^^xsd:date ];
   fhir:address ( [
     fhir:extension ( [
       fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/geolocation" ];
